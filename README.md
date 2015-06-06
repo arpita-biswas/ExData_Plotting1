@@ -112,3 +112,8 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+##Run the codes
+* The data needs to be extracted and the data file `household_power_consumption.txt` needs to be put in the same folder where the files `readData.R`, `plot1.R`, `plot2.R`, `plot3.R`, and `plot4.R` exists
+* `readData.R` contains the function load_data() that filters the data
+* The load_data() function is called in all the files `plot1.R`, `plot2.R`, `plot3.R`, and `plot4.R`
+* To run the codes faster, explicitly call `data<-load_data()` in the console, then `source("plot1.R")` and then call the function `plot1(data)`. Do the same for all the plots 
